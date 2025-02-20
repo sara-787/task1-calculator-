@@ -38,7 +38,7 @@
             Console.Write("Enter 2nd number: ");
             number_2 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Enter an operator ( +, -, *, / ):");
+            Console.Write("Enter an operator ( +, -, *, / ):");
             op = Console.ReadKey().KeyChar;
             Console.WriteLine();
             if (op == '+')
