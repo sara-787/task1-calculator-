@@ -64,7 +64,7 @@
             }
             Console.WriteLine($"Result: {result}");
 
-            Console.Write("Do you want to perform another calculation? (yes/no): ");
+            Console.Write("To perform another calculation type (yes/no): ");
             choice = Console.ReadLine().Trim().ToLower();
 
         } while (choice == "yes");
